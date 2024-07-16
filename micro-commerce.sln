@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Catalog API\src\Catalog.API\Catalog.API.csproj", "{7E92E695-23B4-4942-9051-94C63CB73814}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "Catalog API\src\Catalog.API\Catalog.API.csproj", "{7E92E695-23B4-4942-9051-94C63CB73814}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.Application", "Catalog.Application\Catalog.Application.csproj", "{B975DE6F-30A4-41C8-B536-19D2A9596407}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.Infrastructure", "Catalog API\src\Catalog.Infrastructure\Catalog.Infrastructure.csproj", "{2B1BCC1E-2345-4003-9D0E-CF3A41CEF719}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.Infrastructure", "Catalog API\src\Catalog.Infrastructure\Catalog.Infrastructure.csproj", "{2B1BCC1E-2345-4003-9D0E-CF3A41CEF719}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.Domain", "Catalog API\src\Catalog.Domain\Catalog.Domain.csproj", "{F2668298-C9AB-44E3-BBD0-4EE6B472A6B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.Domain", "Catalog API\src\Catalog.Domain\Catalog.Domain.csproj", "{F2668298-C9AB-44E3-BBD0-4EE6B472A6B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.Share", "Catalog API\src\Catalog.Share\Catalog.Share.csproj", "{BAC014C8-1211-4E39-90FB-1F5668DFE02A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.Share", "Catalog API\src\Catalog.Share\Catalog.Share.csproj", "{BAC014C8-1211-4E39-90FB-1F5668DFE02A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.Application", "Catalog API\src\Catalog.Application\Catalog.Application.csproj", "{1190EABC-AA2F-4955-B897-F78779670CE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,6 @@ Global
 		{7E92E695-23B4-4942-9051-94C63CB73814}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E92E695-23B4-4942-9051-94C63CB73814}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E92E695-23B4-4942-9051-94C63CB73814}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B975DE6F-30A4-41C8-B536-19D2A9596407}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B975DE6F-30A4-41C8-B536-19D2A9596407}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B975DE6F-30A4-41C8-B536-19D2A9596407}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B975DE6F-30A4-41C8-B536-19D2A9596407}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2B1BCC1E-2345-4003-9D0E-CF3A41CEF719}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2B1BCC1E-2345-4003-9D0E-CF3A41CEF719}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B1BCC1E-2345-4003-9D0E-CF3A41CEF719}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +35,10 @@ Global
 		{BAC014C8-1211-4E39-90FB-1F5668DFE02A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAC014C8-1211-4E39-90FB-1F5668DFE02A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAC014C8-1211-4E39-90FB-1F5668DFE02A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1190EABC-AA2F-4955-B897-F78779670CE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1190EABC-AA2F-4955-B897-F78779670CE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1190EABC-AA2F-4955-B897-F78779670CE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1190EABC-AA2F-4955-B897-F78779670CE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
