@@ -15,18 +15,23 @@ namespace Catalog.API.Controllers
             _productService = productService;
         }
 
+        [HttpPost("Add")]
         public async Task Add(ProductDto input) 
             => await _productService.Add(input);
-        
+
+        [HttpGet("Delete/{id}")]
         public Task Delete(int id) 
             => _productService.Delete(id);
 
+        [HttpPost("Get")]
         public Task<IList<ProductDto>> Get(ProductFilterDto filter) 
             => _productService.Get(filter);
 
+        [HttpGet("Get/{id}")]
         public Task<ProductDto> Get(int id) 
             => _productService.Get(id);
 
+        [HttpPost("Update")]
         public Task Update(ProductDto input) 
             => _productService.Update(input);
     }
